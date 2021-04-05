@@ -2,7 +2,7 @@ package controller
 
 import (
 
-	// m "gggg/app/model"
+	// m "golang-study/app/model"
 
 	"fmt"
 	"log"

@@ -1,9 +1,9 @@
 package main
 
 import (
-	// c "gggg/app/controller"
-	// db "gggg/app"
-	"gggg/app/route"
+	// c "golang-study/app/controller"
+	// db "golang-study/app"
+	"golang-study/app/route"
 	"log"
 	"net/http"
 )

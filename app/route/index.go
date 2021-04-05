@@ -1,7 +1,7 @@
 package route
 
 import (
-	c "gggg/app/controller"
+	c "golang-study/app/controller"
 
 	"github.com/julienschmidt/httprouter"
 )
