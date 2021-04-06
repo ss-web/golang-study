@@ -11,7 +11,8 @@ import (
 func main() {
 	//
 	// db.Connect(1)
-	// log.Print("запущено")
+
+	log.Print("запущено")
 	err := http.ListenAndServe(":8081", route.Router)
 	log.Fatal(err)
 }

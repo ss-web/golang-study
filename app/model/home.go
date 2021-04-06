@@ -4,7 +4,7 @@ import "github.com/jinzhu/gorm"
 
 type Home struct {
 	gorm.Model
-	id    int
+	// id    int
 	name  string
-	check bool
+	// check bool
 }

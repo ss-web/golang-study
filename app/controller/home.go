@@ -10,10 +10,25 @@ import (
 	"github.com/julienschmidt/httprouter"
 )
 
+func Hello(message string) {
+	var name string
+
+	fmt.Println(message)
+	fmt.Scanf("%s", &name)
+	fmt.Printf("Hi, %v", name)
+}
+
+// func Marshal(v interface{}) ([]byte, error)
+
 // Home - controller home page
 func Home(w http.ResponseWriter, r *http.Request, p httprouter.Params) {
 
 	fmt.Fprintln(w, "tets")
+
+	_message := "Hello world!"
+
+	go Hello(_message)
+
 
 	// profile := m.Home{name: "Hello world!"} // задаю данные для json
 
